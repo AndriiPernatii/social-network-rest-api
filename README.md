@@ -8,7 +8,7 @@ Do **not** forget to change the SECRET_KEY if you are planning on deploying the 
 The app implements the JWT authentication. All the routes, except for signing up and loggin in, request an authentication token--issued during loggin in.
 
 # API Functionality
-## Sign up
+## Sign Up
 Use `/api/v1/resources/users` to add a new user to the database.
 
 **Request payload:** `username`, `password`, `email`.
